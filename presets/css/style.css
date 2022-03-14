@@ -1,0 +1,129 @@
+a {
+  text-decoration: none !important;
+}
+body {
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+}
+img {
+  width: 100%;
+  opacity: 100%;
+  border-bottom: #64638f solid 5px;
+  box-shadow: #8d93ab 2px 0 5px;
+}
+
+/* ------------------------------ */
+
+.border { border-radius: 0.31em;}
+.navEdit {
+  box-shadow: 0 0 5px 1px #64638f;
+  margin-bottom: 2em;
+}
+.txtAlign {
+  font-size: 2rem;
+  text-align: center !important;
+  margin: 0 auto;
+  color: #8d93ab !important;
+}
+.iconST {
+  opacity: 35%;
+}
+.title {
+  position: absolute !important;
+  left: 45.3125em !important;
+}
+.bgImg {
+  margin: 0 !important;
+  width: auto;
+  position: absolute;
+  z-index: -1;
+  filter: grayscale() blur(2.5px);
+  right: -65em;
+  opacity: 75%;
+}
+.prodEx {
+  width: 15em !important;
+  margin-bottom: 3em !important;
+  margin: 0 auto 3em auto !important;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.411);
+}
+.caPre {
+  margin: 0 auto;
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+  object-position: 0 25%;
+  filter: grayscale();
+}
+
+/* 
+    ya can just ignore da rest
+*/
+
+@media all and (min-width: 1700px) {
+  .title {
+    left: 55em !important;
+  }
+  .bgImg {
+    right: -25em;
+  }
+}
+
+@media all and (max-width: 376px) {
+  .title {
+    visibility: hidden;
+  }
+  .bgImg {
+    object-fit: cover;
+    width: 23.4375em;
+    height: 240em;
+    right: 0em;
+    filter: grayscale() blur(5px);
+    opacity: 45%;
+  }
+}
+
+/* ------ Res Spam POGGERS ------ */
+
+@media all and (max-width: 2000px) {
+  .title {
+    left: 55em !important;
+  }
+}
+@media all and (max-width: 1601px) {
+  .title {
+    left: 45em !important;
+  }
+}
+@media all and (max-width: 1401px) {
+  .title {
+    left: 35em !important;
+  }
+}
+@media all and (max-width: 1200px) {
+  .title {
+    left: 25em !important;
+    bottom: 11em;
+  }
+}
+@media all and (max-width: 770px) {
+  .title {
+    left: 20em !important;
+    bottom: 11em;
+  }
+}
+@media all and (max-width: 520px) {
+  .title {
+    left: 20em !important;
+    bottom: 11em;
+  }
+  .prodEx {
+    width: 10em !important;
+    font-size: 15px;
+  }
+  .prodEx p {
+    width: 10em !important;
+    font-size: 11px;
+  }
+} /* and what 'bout da carousel? got lazy */
